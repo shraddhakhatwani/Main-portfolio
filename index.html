@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <img src="images/logo.png" class="logo">
+
+            <ul id="sidemenu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#">MY WORKS</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <!-- <li><a href="#">Product</a></li> -->
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </div>
+
+        <div class="info">
+            <h3>Hi, I'm <span>Shraddha</span>.</h3>
+            <h1><span>W</span>EB <span>D</span>ESIGNER</h1>
+            <h3>Web designer and developer from Raipur.
+                I create <br> websites to do businesses do better <br> online.</h3>
+            <a href="#">Hire Me</a>
+        </div>
+
+
+        <div class="image">
+            <img src="images/bg.jpeg" class="girl">
+        </div>
+
+        <div class="icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </div>
+
+    <!------- about section ------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/abt me.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <div class="tab-titles">
+                        <p>Hi, I'm [shraddha khatwani], a passionate and dedicated Web Developer eager to create
+                            innovative and
+                            user-friendly digital experiences. As a fresher in the field, I have a strong foundation in
+                            HTML, CSS, JavaScript, Php and React, along with a keen interest in front-end and back-end
+                            development.
+
+                            I love building responsive and interactive websites that not only look great but also
+                            function smoothly across all devices. My journey in web development has been fueled by
+                            continuous learning, hands-on projects, and a desire to solve real-world problems through
+                            code.
+
+                            💡 What I Bring:
+                            ✅ Strong Problem-Solving Skills – I enjoy tackling challenges and finding efficient
+                            solutions.
+                            ✅ Responsive Web Design – Ensuring websites work flawlessly on all devices.
+                            ✅ Passion for Learning – Always exploring new technologies and best practices.
+                            ✅ Team Player – Collaborating and growing with like-minded developers.
+
+                            I'm excited to kick-start my career in web development and contribute my skills to
+                            innovative projects. Let’s connect and create something amazing together! 🚀
+
+                            📩 Feel free to reach out at [Your Email] or connect with me on [LinkedIn/GitHub].</p>
+
+                        <!-- <div class="tab-titles">
+                            <p class="tab-links active-link">Skills</p>
+                            <p class="tab-links">Experience</p>
+                            <p class="tab-links">Education</p>
+
+                        </div>
+
+                        <div class="tab-contents" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                                <li><span>Web Development</span><br>Web App Development</li>
+
+                            </ul>
+                        </div> -->
+
+                        <!-- <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+
+                        </ul>
+                    </div> -->
+
+                        <!-- <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>CMA(Cost Management Accountant) From Arham Institute</li>
+                            <li><span>2022</span><br>BCOM From Pt. Harishankar Shukla College</li>
+                            <li><span>2023</span><br>Graphic Designing From Arena Institute</li>
+                            <li><span>2024</span><br>UI UX Designing from Arena Institute</li>
+
+                        </ul> -->
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-------------------- my services-------------- -->
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My services</h1>
+                <div class="services-list">
+                    <div class="title">
+                        <h2>Web Design</h2>
+                        <p>Web design is the process of planning and arranging content on a website to create a visually
+                            appealing and user-friendly experience, encompassing elements like layout, colors, fonts,
+                            and
+                            graphics. </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div class="title">
+                        <h2>UI Design</h2>
+                        <p>UI (User Interface) design focuses on the look, feel, and interactivity of a digital product,
+                            aiming to create intuitive and engaging user experiences.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div class="title">
+                        <h2>UX Design</h2>
+                        <p>UX (user experience) design focuses on making products, systems, or services easy, enjoyable,
+                            and
+                            accessible for users, encompassing all aspects of their interaction, from initial research
+                            to
+                            final implementation. </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-------------------------- portfolio ------------------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work 1.jpg" alt="">
+                        <div class="layer">
+                            <h3>shopping website</h3>
+                            <p>web development concentrates on the technical functionality and coding that brings the
+                                design
+                                to life. </p>
+                            <button><a href="https://shraddhakhatwani.github.io/shoppingWebsite/">Vist
+                                    Site</a></button>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/5.jpg" alt="">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>consider popular apps like Amazon, Myntra,
+                                and Shopsy offering wide range of products and services. </p>
+                            <button> <a href="https://shraddhakhatwani.github.io/spotify/">Visit Now</a></button>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/8.webp" alt="">
+                        <div class="layer">
+                            <h3>web Designing</h3>
+                            <p>popular apps like, YouTube,and Wynk Music, which offer a wide
+                                variety of music and podcasts. </p>
+                            <button> <a href="https://shraddhakhatwani.github.io/Portfolio/">Visit Now</a></button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#" class="btn">See More</a>
+
+            </div>
+        </div>
+
+
+
+        <!---------------------- contact -------------------->
+
+        <div class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+                        <p><i class="fa-solid fa-phone"></i> 9340883443</p>
+                        <div class="social-icons">
+                            <a href=""></a>
+                            <a href=""></a>
+                            <a href=""></a>
+                            <a href=""></a>
+                        </div>
+                        <a href="images/my resume.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="button">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright © all rights reserved</p>
+            </div>
+        </div>
+
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classlist.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classlist.remove("active-tab");
+                }
+                event.currentTarget.classlist.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+
+
+
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+
+
+
+
+
+        </script>
+</body>
+
+</html>
